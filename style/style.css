@@ -14,8 +14,8 @@
 .barnav{
     display: flex;
     justify-content: center ;
-    align-items: center;
     height:80px;
+    padding: 20px;
     
 }
 .barnav > *{
@@ -51,5 +51,111 @@
     border: 2px dashed black;
     margin-top: 60px;
     margin-bottom: 60px;
+    
+}
+
+/*container dei tre elementi*/
+
+.bg-white{
+    background-color: rgb(245, 243, 243);
+}
+.container-6040{
+    height: 600px;
+    padding: 60px 25% ;
+    justify-content: center;
+    
+}
+
+.flex{
+    display: flex;
+}
+.large-con{
+    flex-basis: 60%;
+    background-color: dodgerblue;
+    border: 2px dashed black;
+}
+.small-con{
+    flex-basis: 40%;
+    background-color: violet;
+    border: 2px dashed black;
+}
+.bg-gray{
+    background-color: rgb(194, 181, 181);
+}
+ /*contenuto secondo green */
+.container-100{
+    height: 800px;
+    justify-content: center;
+}
+.bg-green{
+    background-color : green;
+    width: 50%;
+    border: 2px dashed black;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    
+}
+
+/*contenuti del footer*/
+
+.container-footer{
+    height: 600px;
+    justify-content: center;
+    padding: 20px;
+
+    
+}
+.bg-black{
+    background-color: rgba(30, 30, 30, 0.966);
+}
+
+.bg-viole{
+    background-color: rgb(234, 91, 91);
+    border: 2px dashed black;
+    flex-basis: 11%;
+    
+}
+
+.bg-acqua{
+    background-color: rgb(16, 164, 160);
+     border: 2px dashed white;
+     flex-basis: 10%;
+}
+
+/*end*/
+
+hr{
+    border: 2px solid gray;
+}
+
+.container-end{
+    flex-basis: 20%;
+    height: 80px;
+    justify-content: center;
+}
+.end{
+    background-color: rgb(28, 213, 230);
+    width: 1015px;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+
+.logo-viole{
+    background-color: violet;
+    border: 2px dashed black;
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    
+   
+}
+
+.button{
+    background-color: violet;
+    border: 2px dashed black;
+     margin: 20px 0;
+     padding: 10px;
+    
     
 }
